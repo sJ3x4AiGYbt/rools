@@ -3,6 +3,7 @@
 ### **branche:**
 
 - **main** : stable release branch
+- **staging** : pre prod branch
 - **feature/<name>** : new features
 - **bugfix/<name>** : bug fixes
 - **release/<version>** : release preparation
