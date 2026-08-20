@@ -1,6 +1,6 @@
 # rools
 
-**R**ust **O**ffensive & **O**bservability **L**ightweight **S**uite — a cross-platform (Linux, macOS, Windows) security and observability toolkit written in Rust.
+Rust Offensive & Observability Lightweight Suite — a cross-platform (Linux, macOS, Windows) security and observability toolkit written in Rust.
 
 ## Details
 
@@ -11,8 +11,8 @@
 - Results print to stdout or export to JSON/YAML/CSV, optionally zipped.
 - SysViz requires elevated privileges (root on Linux/macOS, administrator on Windows) to access the kernel event stream.
 - Requirements:
-  - **Linux**: GCC, `pkg-config`, `libssl` (dev headers)
-  - **macOS**: Xcode Command Line Tools
+  - **Linux**: GCC, `pkg-config`, `strace`, `libssl` (dev headers)
+  - **macOS**: `eslogger`
   - **Windows**: MSYS2 (GNU toolchain, `gcc`/`binutils`)
 
 ## Usage
